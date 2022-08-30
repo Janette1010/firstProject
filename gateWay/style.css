@@ -1,0 +1,167 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/*global*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*header*/
+header {
+    background: #191372;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #004800 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16 px;
+}
+
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px,
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+    text-shadow: 2px 2px #000
+}
+
+/*nav li*/
+li {
+    padding: 5px;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+header .highlight,
+header .current a {
+    color: #006400;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+
+}
+
+/*hero*/
+#showcase {
+    min-height: 600px;
+    background: url('high-res-charlotte.jpeg') no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #000;
+}
+
+#showcase p {
+    font-size: 22px;
+    text-shadow: 3px 3px #000;
+}
+
+/*block*/
+
+#block {
+    padding: 15px;
+    color: white;
+    background: #24a;
+}
+
+/*boxes*/
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+/*main-col*/
+article#main-col {
+    float: left;
+    width: 50%;
+    margin-left: 300px;
+}
+
+/*things to do*/
+ul#things li {
+    list-style: none;
+    padding: 20px;
+    border: #ccc, solid 1px;
+    margin-bottom: 5px;
+    background: #9191b1;
+}
+
+
+/*contact-form*/
+
+.form-group {
+    padding: 10px;
+}
+
+.button_1 {
+    height: 38px;
+    background: #004800;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: #fff;
+    background-color: #004800;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+footer img {
+    width: 70px;
+
+}
